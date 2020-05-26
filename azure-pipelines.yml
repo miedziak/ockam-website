@@ -33,6 +33,5 @@ steps:
       az storage blob upload-batch \
         --account-name $(ACCOUNT_NAME) \
         --account-key $(ACCOUNT_KEY_MASTER) \
-        --source ./public/  \
-        --destination "https://${ACCOUNT_NAME}.blob.core.windows.net/$(CONTAINER)"
+        --source ./public/
     displayName: 'Deploy to storage'
