@@ -35,28 +35,28 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet metus er
 ## Logos and Graphics
 
 
-![Ockam logo dark background](./assets/logo/logo_dark_background_preview.svg)
+![Ockam logo dark background](assets/logo/logo_dark_background_preview.svg)
 
-![Ockam logo light background](./assets/logo/logo_white_background_preview.svg)
+![Ockam logo light background](assets/logo/logo_white_background_preview.svg)
 
-![Ockam logo dark caption background](./assets/logo/logo_caption_dark_background_preview.svg)
+![Ockam logo dark caption background](assets/logo/logo_caption_dark_background_preview.svg)
 
-![Ockam logo light caption background](./assets/logo/logo_caption_white_background_preview.svg)
+![Ockam logo light caption background](assets/logo/logo_caption_white_background_preview.svg)
 
-![Ockam text dark caption background](./assets/logo/text_caption_dark_background_preview.svg)
+![Ockam text dark caption background](assets/logo/text_caption_dark_background_preview.svg)
 
-![Ockam text light caption background](./assets/logo/text_caption_white_background_preview.svg)
+![Ockam text light caption background](assets/logo/text_caption_white_background_preview.svg)
 
 
 ## Stickers
 
-![Ockam sticker dark background](./assets/stickers/sticker_dark_background.svg)
+![Ockam sticker dark background](assets/stickers/sticker_dark_background.svg)
 
-![Ockam sticker bordered dark background](./assets/stickers/sticker_bordered_dark_backround.svg)
+![Ockam sticker bordered dark background](assets/stickers/sticker_bordered_dark_backround.svg)
 
 ## Twitter
 
 
-![Twitter cover photo1](./assets/twitter/twitter_cover_1.png)
+![Twitter cover photo1](assets/twitter/twitter_cover_1.png)
 
-![Twitter cover photo2](./assets/twitter/twitter_cover_2.png)
+![Twitter cover photo2](assets/twitter/twitter_cover_2.png)

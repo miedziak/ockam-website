@@ -3,23 +3,19 @@ import PropTypes from 'prop-types';
 
 import PageTemplate from './PageTemplate';
 import LearnTemplate from './LearnTemplate';
-import BlogTemplate from './BlogTemplate';
 
 const Index = ({ children, pageContext, location, ...rest }) => {
   const isDocPage = pageContext.pageType === 'doc';
-  const isBlogPage = pageContext.pageType === 'blog';
   const isJobPage = pageContext.pageType === 'job';
 
-  if (isBlogPage) {
-    return (
-      <BlogTemplate location={location} {...rest}>
-        {children}
-      </BlogTemplate>
-    );
-  }
   if (isDocPage) {
     return (
-      <LearnTemplate location={location} algoliaIndexes={pageContext.algoliaIndexes.learn} dependedRepos={pageContext.dependedRepos} {...rest}>
+      <LearnTemplate
+        location={location}
+        algoliaIndexes={pageContext.algoliaIndexes.learn}
+        dependedRepos={pageContext.dependedRepos}
+        {...rest}
+      >
         {children}
       </LearnTemplate>
     );
@@ -28,7 +24,7 @@ const Index = ({ children, pageContext, location, ...rest }) => {
   if (isJobPage) {
     return (
       <PageTemplate location={location} {...rest}>
-        {React.cloneElement(children, { job: pageContext.job})}
+        {React.cloneElement(children, { job: pageContext.job })}
       </PageTemplate>
     );
   }
@@ -51,8 +47,6 @@ Index.propTypes = {
     job: PropTypes.shape({}),
   }).isRequired,
   location: PropTypes.shape({}).isRequired,
-
 };
-
 
 export default Index;

@@ -6,8 +6,8 @@ node_modules
 .idea/
 .gitmodules
 
-src/content/learn/proposals
-src/content/learn/concepts
+src/content/proposals
+src/content/concepts
 
 **/cli.config
 **/*.swp

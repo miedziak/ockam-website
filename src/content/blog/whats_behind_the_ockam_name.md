@@ -16,7 +16,7 @@ Dick McCurdy published a white paper on “Improved Instrumentation for 12-Meter
 
 Using the technology that Dick invented, the yacht Courageous successfully defended the America’s Cup in 1974. In that moment, sailing was forever changed from a seat-of-the-pants sport and into a data-driven one.
 
-![Ockam Instruments Logo](./assets/ockam_instruments_logo.png)
+![Ockam Instruments Logo](assets/ockam_instruments_logo.png)
 
 Building on his success, Dick built a company called Ockam Instruments to bring simplified computing technology to all racing boats. His company was named in reference to Ockham’s Razor, which, most simply, states ‘keep things simple’.
 

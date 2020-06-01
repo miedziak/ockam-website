@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React, { useRef } from 'react';
 import PropTypes from 'prop-types';
 
 import Modal from '../components/modal/Modal';
@@ -7,11 +7,9 @@ import Text from '../components/Text';
 import useForm from '../hooks/useForm';
 import contactFormValidator from '../validators/contactFormValidator';
 import Button from '../components/Button';
-import contactFormErrorHandler from '../errors/contactFormErrorHandler';
 import ContactForm from '../forms/ContactForm';
 
 const ContactModal = ({ isActive, hide }) => {
-
   const contactFormRef = useRef();
   const handleSubmit = () => {
     contactFormRef.current.submit();
@@ -21,7 +19,6 @@ const ContactModal = ({ isActive, hide }) => {
   const [{ values, pending, errors }, onChange, onSubmit, setRef] = useForm(
     handleSubmit,
     {
-      onError: contactFormErrorHandler,
       validate: contactFormValidator,
     }
   );
@@ -38,7 +35,9 @@ const ContactModal = ({ isActive, hide }) => {
         onSubmit={onSubmit}
         setRef={setRef}
       />
-      <Button mt={4} width="100%" type="submit" onClick={onSubmit}>Send</Button>
+      <Button mt={4} width="100%" type="submit" onClick={onSubmit}>
+        Send
+      </Button>
     </Modal>
   );
 };

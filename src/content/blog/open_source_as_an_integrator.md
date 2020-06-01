@@ -36,7 +36,7 @@ With so many tools available, no developer can possibly build every possible int
 
 Ockam provides software development kits and hosted cloud services to securely connect your devices to popular cloud servers like Amazon Web Services, Microsoft Azure, and Google Cloud. Our tools are open source, encouraging both community introspection and contribution. Building upon open source’s natural role as an integrator, we’ve focused on a thin—but important—layer of the stack.
 
-![Ockam Ecosystem Map](./assets/ockam_ecosystem_map.png)
+![Ockam Ecosystem Map](assets/ockam_ecosystem_map.png)
 
 The [Ockam Cloud SDK](https://www.ockam.io/product/cloud-sdk) allows you to direct encrypted data from your edge devices to cloud services. With the Cloud SDK, there’s a trustworthy way for cloud applications to get messages from applications on these devices.
 
